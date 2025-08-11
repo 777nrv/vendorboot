@@ -23,3 +23,9 @@ Step 3) Paste the code below into a Colab code cell and run it after uploading v
 
 !./patch.sh --target-arch arm64 vendor_boot.img
 ```
+
+Step  4) To download (replace file name)
+```bash
+from google.colab import files
+files.download('vendor_boot_patched.img')
+```
