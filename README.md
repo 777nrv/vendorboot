@@ -7,7 +7,7 @@ Step 1) Upload your vendor_boot.img file to [Google Colab](https://colab.researc
 
 Tip : Use VPN for faster upload
 
-Step 2) Change architecture according your device in last line like arm, arm64, x86, x86_64
+Step 2) Change architecture according your device in last to 3rd line like arm, arm64, x86, x86_64
 
 Step 3) Paste the code below into a Colab code cell and run it after uploading vendor_boot.img. 
 
