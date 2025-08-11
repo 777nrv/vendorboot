@@ -5,6 +5,8 @@ Magisk vendor_boot patcher using Google Colab
 
 Step 1) Upload your vendor_boot.img file to [Google Colab](https://colab.research.google.com/#create=true).
 
+Tip : Use VPN for faster upload
+
 Step 2) Change architecture according your device in last line like arm, arm64, x86, x86_64
 
 Step 3) Paste the code below into a Colab code cell and run it after uploading vendor_boot.img. 
@@ -22,10 +24,7 @@ Step 3) Paste the code below into a Colab code cell and run it after uploading v
 !mv /content/vendor_boot.img ./
 
 !./patch.sh --target-arch arm64 vendor_boot.img
-```
 
-Step  4) To download (replace file name)
-```bash
 from google.colab import files
 files.download('vendor_boot_patched.img')
 ```
